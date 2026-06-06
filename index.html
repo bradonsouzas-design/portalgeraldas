@@ -1,1 +1,404 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Force Sport Wear | Moda Infantil e Juvenil</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+body{
+background:#fff;
+color:#222;
+line-height:1.6;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+padding:0 20px;
+}
+
+header{
+background:#ffffff;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 0;
+}
+
+.logo{
+font-size:30px;
+font-weight:800;
+color:#0057ff;
+}
+
+.menu{
+display:flex;
+gap:30px;
+}
+
+.menu a{
+text-decoration:none;
+color:#222;
+font-weight:600;
+}
+
+.hero{
+background:linear-gradient(135deg,#0057ff,#3c84ff);
+color:white;
+padding:100px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:58px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+margin-bottom:35px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:white;
+color:#0057ff;
+text-decoration:none;
+border-radius:40px;
+font-weight:700;
+}
+
+.topics{
+padding:80px 0;
+background:#f8f9fc;
+}
+
+.section-title{
+font-size:38px;
+text-align:center;
+margin-bottom:50px;
+font-weight:800;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+margin-bottom:15px;
+color:#0057ff;
+}
+
+.categories{
+padding:80px 0;
+}
+
+.category{
+background:#0057ff;
+color:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+}
+
+.about{
+padding:80px 0;
+background:#f7f7f7;
+}
+
+.about-box{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.contact{
+padding:80px 0;
+}
+
+.contact-box{
+background:#0057ff;
+color:white;
+padding:40px;
+border-radius:20px;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px 20px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:38px;
+}
+
+.menu{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="container nav">
+
+<div class="logo">
+FORCE SPORT WEAR
+</div>
+
+<nav class="menu">
+<a href="#inicio">Início</a>
+<a href="#servicos">Serviços</a>
+<a href="#categorias">Categorias</a>
+<a href="#empresa">Empresa</a>
+<a href="#contato">Contato</a>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero" id="inicio">
+
+<div class="container">
+
+<h1>Moda Infantil, Juvenil e Calçados</h1>
+
+<p>
+Qualidade, conforto e estilo para acompanhar todas as fases da infância.
+Peças modernas, calçados e acessórios selecionados para toda família.
+</p>
+
+<a href="#servicos" class="btn">
+Conheça Nossos Serviços
+</a>
+
+</div>
+
+</section>
+
+<section class="topics" id="servicos">
+
+<div class="container">
+
+<h2 class="section-title">
+Principais Serviços
+</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Moda Infantil</h3>
+<p>Roupas infantis modernas para meninos e meninas.</p>
+</div>
+
+<div class="card">
+<h3>Moda Juvenil</h3>
+<p>Peças atuais seguindo tendências nacionais.</p>
+</div>
+
+<div class="card">
+<h3>Calçados</h3>
+<p>Comércio varejista de calçados infantis e juvenis.</p>
+</div>
+
+<div class="card">
+<h3>Acessórios</h3>
+<p>Complementos para compor looks completos.</p>
+</div>
+
+<div class="card">
+<h3>Venda Online</h3>
+<p>Atendimento digital e vendas em todo Brasil.</p>
+</div>
+
+<div class="card">
+<h3>Confecção Própria</h3>
+<p>Produção e desenvolvimento de peças de vestuário.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="categories" id="categorias">
+
+<div class="container">
+
+<h2 class="section-title">
+Nossas Categorias
+</h2>
+
+<div class="grid">
+
+<div class="category">
+<h3>Meninas</h3>
+<p>Vestidos, conjuntos e acessórios.</p>
+</div>
+
+<div class="category">
+<h3>Meninos</h3>
+<p>Camisetas, conjuntos e moda casual.</p>
+</div>
+
+<div class="category">
+<h3>Bebês</h3>
+<p>Conforto e delicadeza para os pequenos.</p>
+</div>
+
+<div class="category">
+<h3>Calçados</h3>
+<p>Tênis, sandálias e modelos casuais.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="about" id="empresa">
+
+<div class="container">
+
+<h2 class="section-title">
+Sobre a Empresa
+</h2>
+
+<div class="about-box">
+
+<h3>Force Sport Wear Varejista On Line LTDA</h3>
+
+<br>
+
+<p><strong>CNPJ:</strong> 43.274.929/0001-11</p>
+<p><strong>Fundação:</strong> 25/08/2021</p>
+<p><strong>Situação:</strong> Ativa</p>
+<p><strong>Capital Social:</strong> R$ 29.000,00</p>
+<p><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</p>
+
+<br>
+
+<p>
+A Force Sport Wear Varejista On Line LTDA atua no segmento de comércio
+varejista de artigos do vestuário e acessórios, oferecendo produtos
+de qualidade para o público infantil e juvenil.
+</p>
+
+<br>
+
+<h3>Atividades Econômicas</h3>
+
+<ul>
+<li>47.81-4-00 - Comércio varejista de artigos do vestuário e acessórios</li>
+<li>47.82-2-01 - Comércio varejista de calçados</li>
+<li>14.12-6-01 - Confecção de peças de vestuário</li>
+<li>64.62-0-00 - Holdings de instituições não-financeiras</li>
+</ul>
+
+<br>
+
+<h3>Administrador</h3>
+
+<p><strong>Dirceu Kniess</strong></p>
+<p>Sócio-Administrador</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contato">
+
+<div class="container">
+
+<h2 class="section-title">
+Contato
+</h2>
+
+<div class="contact-box">
+
+<p><strong>Telefone:</strong> (47) 3300-3043</p>
+
+<p><strong>E-mail:</strong> gustavo@rosaazulkids.com.br</p>
+
+<p><strong>Endereço:</strong></p>
+
+<p>
+Rua Expedicionario Aleandro Stedille, 3029<br>
+Galpão 01<br>
+Valada Itoupava<br>
+Rio do Sul - SC<br>
+CEP: 89162-780
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>Force Sport Wear Varejista On Line LTDA</h3>
+
+<p>CNPJ 43.274.929/0001-11</p>
+
+<p>Rio do Sul - Santa Catarina</p>
+
+<p>© Todos os direitos reservados.</p>
+
+</footer>
+
+</body>
+</html>
+```
